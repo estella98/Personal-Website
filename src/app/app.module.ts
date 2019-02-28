@@ -9,7 +9,8 @@ import { HomeComponent } from './body/home/home.component';
 import { ResumeComponent } from './body/resume/resume.component';
 import { AboutComponent } from './body/about/about.component';
 import { ContactComponent } from './body/contact/contact.component';
-import {RouterModule, Routes} from '@angular/router';
+import { RouterModule, Routes} from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 const appRouter: Routes = [
   { path: '', component: HomeComponent},
@@ -33,7 +34,8 @@ const appRouter: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRouter)
+    RouterModule.forRoot(appRouter),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
