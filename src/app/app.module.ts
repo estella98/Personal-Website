@@ -8,7 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './body/home/home.component';
 import { ResumeComponent } from './body/resume/resume.component';
 import { AboutComponent } from './body/about/about.component';
-import { ContactComponent } from './body/contact/contact.component';
+import { ProjectsComponent } from './body/projects/projects.component';
 import { RouterModule, Routes} from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
@@ -16,7 +16,7 @@ const appRouter: Routes = [
   { path: '', component: HomeComponent},
   { path: 'about', component: AboutComponent},
   { path: 'resume', component: ResumeComponent},
-  { path: 'contact', component: ContactComponent}
+  { path: 'projects', component: ProjectsComponent}
 ]
 
 
@@ -30,7 +30,7 @@ const appRouter: Routes = [
     HomeComponent,
     ResumeComponent,
     AboutComponent,
-    ContactComponent
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
