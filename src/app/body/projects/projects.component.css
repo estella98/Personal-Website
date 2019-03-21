@@ -3,5 +3,12 @@ body{
 }
 
 .btn{
-    background-color: #FFB6C1
+    background-color: #FFB6C1;
+    color : black
+}
+
+.card-title{
+    font-family: serif;
+    font-size: 30px;
+    font-weight: bold;
 }
