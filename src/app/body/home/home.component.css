@@ -1,8 +1,26 @@
 body{
-    padding-top:  70px
+    padding:  400px;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    height: 100%; 
+    background-position: center;
+    background-size: cover;
 }
 
 .btn{
-    background-color: #FFB6C1;
+    background-color: #FFC655;
     color : black
+}
+
+/* #content{
+    text-align: center;
+    padding: 100%
+} */
+
+h1{
+    color:white
+}
+
+h3{
+    color:white
 }
