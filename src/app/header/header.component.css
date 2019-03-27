@@ -8,5 +8,12 @@
   } */
 
   .navbar-custom{
-    background-color: #010C2C
+    background-color: #010C2C;
+    font-family: Lato;
+    font-size: 1.5em
+  }
+
+  .body{
+    
+    
   }
