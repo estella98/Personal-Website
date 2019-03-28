@@ -13,17 +13,21 @@ body{
     color : black
 }
 
-/* #content{
-    text-align: center;
-    padding: 100%
-} */
 
 h1{
     color:white;
     font-weight: 700;
-    font-size: 5em
+    font-size: 5em;
+    text-shadow: 0px 4px 3px red,
+    0px 8px 13px orange,
+    0px 18px 23px yellow
 }
 
 h3{
     color:white
 }
+
+html{
+    height: 100%;
+}
+
