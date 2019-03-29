@@ -11,12 +11,12 @@ h1{
 }
 
 .my-profile-img {
-    background-image: url(../../../assets/img/profile-picture1.jpg);
+    background-image: url(../../../assets/img/profile.jpg);
     background-size: cover;
-    background-position: center top;
+    background-position:  top;
     height: 370px;
     width: 370px;
-    border-radius: 50%;
+    border-radius: 60%;
     display: inline-flex;
     margin-top: 18px;
 }
