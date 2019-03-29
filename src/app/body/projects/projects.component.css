@@ -60,6 +60,9 @@ h1, h2, h3, h4, h5, h6 {
 .circle_inner.ithree {
     background-image: url(../../../assets/img/profile-picture2.jpg);
 }
+.circle_inner.ifour {
+    background-image: url(../../../assets/img/profile-picture2.jpg);
+}
 .circle_inner {
     border-radius: 50%;
     background-color: #ddd;
