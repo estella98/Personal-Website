@@ -29,6 +29,9 @@ body{
 h2 {
     font-size: 24px;
 }
+h3{
+    font-size:18px;
+}
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 35px;
@@ -36,7 +39,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Lato;
     font-weight: 700;
     letter-spacing: 1px;
-    font-weight: 700;
     color: #FFC655;
     line-height: 1.1;
 }
@@ -50,6 +52,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .circle_inner.ione {
     background-image: url(../../../assets/img/profile-picture1.jpg);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.circle_inner.two {
+    background-image: url(../../../assets/img/profile-picture2.jpg);
     background-size: cover;
     background-position: left top;
     background-repeat: no-repeat;
@@ -71,4 +79,16 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-family: Lato;
     font-size: 1.13em;
+}
+
+.content_shadow {
+    width: 200px;
+    box-shadow: 0px 31px 19px -2px #FFC655;
+    height: 20px;
+    border-radius: 70%;
+    position: relative;
+    top: -44px;
+    transition: all 0.3s;
+    z-index: 0;
+    margin: 0 auto;
 }
